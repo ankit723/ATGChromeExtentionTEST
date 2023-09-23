@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Title Extension",
+    "version": "1.0",
+    "description": "Retrieve and display the title of the current tab.",
+    "permissions": [
+        "tabs",
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
